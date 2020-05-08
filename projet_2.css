@@ -10,7 +10,6 @@
 body
 {
   display: flex;
-  flex-wrap: wrap;
   margin: 0;
   font-family: VT323;
 
@@ -18,8 +17,7 @@ body
 
 .gauche
 {
-  display: flex;
-  flex-direction: column;
+  
   width: 30%;
   min-width: 300px;
   background-color: #feca07;
@@ -29,7 +27,8 @@ figure
 {
  display: flex;
  justify-content: center;
- padding-top: 5%;
+ padding-top: 15%;
+ padding-bottom: 5%;
 }
 
 img
@@ -49,9 +48,8 @@ img
 
 .contact
 {
- display: flex;
- flex-direction: column;
- margin-left: 2.3em;
+ 
+ margin-left: 15%;
  font-size: 1.4em;
 
 }
@@ -66,9 +64,10 @@ address p
   display: flex;
   text-align: justify;
   margin: auto;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 15%;
+  padding-right: 15%;
   font-size: 1.4em;
+  padding-bottom: 80%;
 }
 
 .loi p
@@ -80,15 +79,15 @@ address p
 
 .loi
 {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 main
 {
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 70%;
   min-width: 600px;
   margin-left: 5%;
   margin-right: 5%;
@@ -371,4 +370,4 @@ main i
 
 /*Media Queries Responsives */
 
-@media
+@media screen 
