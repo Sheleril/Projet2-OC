@@ -20,7 +20,7 @@ body
 {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
   min-width: 300px;
   background-color: #feca07;
 }
@@ -154,8 +154,8 @@ h2
 
 .openclass aside
 {
-  margin-right: 11%;
-  width: 70%;
+  
+  width: 60%;
 
 }
 
@@ -170,8 +170,8 @@ h2
 
 .vente aside
 {
-  margin-right: 13%;
-  width: 50%;
+
+  width: 60%;
 
 }
 
@@ -185,8 +185,8 @@ h2
 
 .restaurant aside
 {
-  margin-right: 15%;
-  width: 45%;
+  
+  width: 60%;
 
 }
 
@@ -214,7 +214,7 @@ h2
 .amazon aside
 {
 
-  width: 77%;  /*Obliger pour aligner à l'article du dessous? voir si erreur*/ /*???*/
+  width: 60%;  /*Obliger pour aligner à l'article du dessous? voir si erreur*/ /*???*/
 
 }
 
@@ -227,7 +227,7 @@ h2
 
 .thiriet aside
 {
-  margin-right: 5%;
+width: 60%;
                   /*pourquoi la date va jusqu'au bout alors que les autres dates de forma et experience vont à la ligne auto??*/
 /*mis les couleur pour aider à voir les marges*/
 }
@@ -241,7 +241,7 @@ h2
 
 .tridome aside
 {
-  margin-right: 14%;  /* au lieu de 5 car c'est pour ajuster avec l'article du dessus */
+  width: 60%;  /* au lieu de 5 car c'est pour ajuster avec l'article du dessus */
 }
 
 #experience .esplan
@@ -253,7 +253,7 @@ h2
 
 .esplan aside
 {
-  margin-right:13%; /* au lieu de 5 car c'est pour ajuster avec l'article du dessus */
+  width: 60%;/* au lieu de 5 car c'est pour ajuster avec l'article du dessus */
 }
 
 #experience p 
@@ -359,8 +359,15 @@ main i
   color: #FBC02D;
 }
 
-} /*fin responsive Large devices*/
-} /*fin responsive Extra large devices*/
+#formation article
+{
+  width: 80%;
+}
+
+#experience article
+{
+  width: 80%;
+}
 
 /*Media Queries Responsives */
 
