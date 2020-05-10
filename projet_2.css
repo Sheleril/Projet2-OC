@@ -444,6 +444,24 @@ main i
    flex-wrap: wrap;
  }
 
+ header
+ {
+   position: absolute;
+   top: 0;
+ }
+
+ 
+header h2 span
+{
+  text-decoration: underline rgb(247, 126, 14);
+}
+
+ figure 
+ {
+   padding-top: 35%;
+ }
+   
+
  .gauche
  {
    width: 100%;
@@ -469,6 +487,12 @@ main i
   {
     font-size: 3em;
   }
+
+  header h1 span 
+  {
+    color: rgb(247, 126, 14);
+  }
+
   header h2 
   {
     font-size: 2em;
