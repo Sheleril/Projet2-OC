@@ -71,17 +71,11 @@ address p
   padding-bottom: 80%;
 }
 
-.loi p
-{
-  display: flex;
-  justify-content: space-around;
-  font-size: 2em;
-}
 
 .loi
 {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 main
@@ -344,10 +338,22 @@ h3
   padding: 0;
 }
 
+.loi #icone
+{
+  display: inline-block;
+  justify-content: center;
+  width: 22%;
 
-.loi i
+}
+
+#icone i
 {
   color: #404040;
+  border: solid  #404040;
+  border-radius: 50%;
+  font-size: 2em;
+  padding: 15%;
+ 
 }
 
 main i 
@@ -448,6 +454,8 @@ main i
  {
    position: absolute;
    top: 0;
+   justify-content: center;
+   text-align: center;
  }
 
  
