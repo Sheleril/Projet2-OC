@@ -374,7 +374,7 @@ main i
 {
   
 }
-@media screen and (max-width: 959px)
+@media screen and (min-width: 480px) and (max-width: 959px)
 
 {
 
@@ -411,7 +411,6 @@ main i
   {
     font-size: 2.5em;
   }
-  
   
   section h2 
   {
@@ -467,7 +466,7 @@ main i
   /* HEADER */
   header h1 
   {
-    font-size: 3.5em;
+    font-size: 3em;
   }
   header h2 
   {
