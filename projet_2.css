@@ -68,7 +68,7 @@ address p
   padding-left: 15%;
   padding-right: 15%;
   font-size: 1.4em;
-  padding-bottom: 80%;
+  height: 1200px;
 }
 
 
@@ -480,6 +480,11 @@ header h2 span
  {
    margin-bottom: 5%;
    padding-bottom: 5%;
+ }
+
+ .prop
+ {
+   height: 800px;
  }
 
   
