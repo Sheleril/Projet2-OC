@@ -91,8 +91,8 @@ main header
 {
   display: flex;
   flex-direction: column;
-  margin-left: 9%;
   margin-top: 3%;
+  margin-left: 9%;
   margin-bottom: 10%;  /* ESPACE ENTRE le titre FORMATION Et le HEADER */
 }
 
@@ -375,7 +375,10 @@ main i
 
 @media screen and (min-width: 960px) and (max-width: 1280px)
 {
-
+  .prop
+  {
+    height: 60%;
+  } 
 
 
 }
@@ -410,26 +413,40 @@ main i
   /* HEADER */
   header h1 
   {
-    font-size: 4.5em;
+    font-size: 3.5em;
   }
   header h2 
   {
-    font-size: 2.5em;
+    font-size: 2em;
+  }
+
+  figure 
+  {
+    margin: 10%;
+    padding: 0%;
   }
   
+
+  .loi
+  {
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+  }
+
   section h2 
   {
-    font-size: 2.5em;
+    font-size: 2em;
   }
  
   #formation div h3
   {
-    font-size: 2em;
+    font-size: 1.5em;
   }
  
   #experience div h3
   {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   #reco h3 
@@ -440,6 +457,45 @@ main i
   {
   margin-right: 20%;
   }
+
+  .prop
+ {
+   height: 600px;
+ } 
+
+
+ /*ARTICLES EN COLUMN*/
+
+ #formation div
+ {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ #formation div h3
+ {
+   font-size: 1.7em;
+ }
+ #experience div
+ {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ #experience div h3
+ {
+   font-size: 1.7em;
+ }
+
+ /*PARTIE RECOMMANDATIONS*/
+
+ #reco h3 
+ {
+   font-size: 1.2em;
+ }
+ #reco .recommand
+ {
+ margin-right: 10%;
+ }
+
 }
 
 @media screen and (max-width: 479px)
@@ -480,12 +536,13 @@ header h2 span
  {
    margin-bottom: 5%;
    padding-bottom: 5%;
+   margin-left: 15%;
  }
 
- .prop
+.prop
  {
    height: 800px;
- }
+ } 
 
   
   /*PARTIE DROITE */
