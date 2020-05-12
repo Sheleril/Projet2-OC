@@ -68,7 +68,7 @@ address p
   padding-left: 15%;
   padding-right: 15%;
   font-size: 1.4em;
-  height: 1150px;
+  height: 1050px;
 }
 
 
@@ -402,6 +402,11 @@ main i
    margin-bottom: 5%;
    padding-bottom: 5%;
  }
+
+ figure 
+ {
+   padding-top: 40%;
+ }
   
   /*PARTIE DROITE */
 
@@ -524,7 +529,7 @@ header h2 span
 
  figure 
  {
-   padding-top: 30%;
+   padding-top: 40%;
  }
    
 
