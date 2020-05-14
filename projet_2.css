@@ -67,7 +67,7 @@ address p
   padding-left: 15%;
   padding-right: 15%;
   font-size: 1.4em;
-  height: 1050px;
+  height: 1100px;
 }
 
 
@@ -376,7 +376,7 @@ main i
 {
   .prop
   {
-    height: 80%;
+    height: 60%;
   } 
 
 
@@ -464,7 +464,7 @@ main i
 
   .prop
  {
-   height: 600px;
+   height: 500px;
  } 
 
 
