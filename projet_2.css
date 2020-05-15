@@ -18,10 +18,12 @@ body
 
 .gauche
 {
-  
+  display: flex;
+  flex-direction: column;
   width: 30%;
   min-width: 300px;
   background-color: #feca07;
+  height: 100%;
 }
 
 figure
@@ -46,11 +48,12 @@ img
   font-size: 2.5em;
 }
 
-.contact
+#contact address
 {
  
  margin-left: 15%;
  font-size: 1.4em;
+ height: 55%;
 
 }
 
@@ -67,13 +70,22 @@ address p
   padding-left: 15%;
   padding-right: 15%;
   font-size: 1.4em;
-  height: 1100px;
+  height: 1200px;
 }
 
-
-.loi
+#loisirs
 {
-  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  font-stretch: normal;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+ 
+}
+
+#loisirs > div
+{
+  margin-left: 5%;
   margin-right: 5%;
 }
 
@@ -111,14 +123,15 @@ header h1 span
   color: #FBC02D;
 }
 
-header h2
+header p
 {
  padding-left: 5px;
  margin: 0;
+ font-size: 2.5em;
 
 }
 
-header h2 span
+header p span
 {
   text-decoration: underline #FBC02D;
 }
@@ -129,57 +142,21 @@ h2
 }
 
 /* PARTIE FORMATION*/
-
 #formation
 {
   display: flex;
   flex-direction: column;
 }
 
-#formation .openclass
+#formation div
 {
   display: flex;
   align-items: baseline;
-
-   /*mis les couleur pour aider à voir les marges*/
 }
 
-.openclass aside
+#formation div aside
 {
-  
   width: 60%;
-
-}
-
-#formation .vente
-
-{
-  display: flex;
-  align-items: baseline;
-
-   /*mis les couleur pour aider à voir les marges*/
-}
-
-.vente aside
-{
-
-  width: 60%;
-
-}
-
-#formation .restaurant
-{
-  display: flex;
-  align-items: baseline;
-
-   /*mis les couleur pour aider à voir les marges*/
-}
-
-.restaurant aside
-{
-  
-  width: 60%;
-
 }
 
 #formation p 
@@ -195,7 +172,7 @@ h2
   flex-direction: column;
 }
 
-#experience .amazon
+#experience div
 {
   display: flex;
   align-items: baseline;
@@ -203,49 +180,9 @@ h2
 /*mis les couleur pour aider à voir les marges*/
 }
 
-.amazon aside
+#experience div aside
 {
-
-  width: 60%;  /*Obliger pour aligner à l'article du dessous? voir si erreur*/ /*???*/
-
-}
-
-#experience .thiriet
-{
-  display: flex;
-  align-items: baseline;
- /*mis les couleur pour aider à voir les marges*/
-}
-
-.thiriet aside
-{
-width: 60%;
-                  /*pourquoi la date va jusqu'au bout alors que les autres dates de forma et experience vont à la ligne auto??*/
-/*mis les couleur pour aider à voir les marges*/
-}
-
-#experience .tridome
-{
-  display: flex;
-  align-items: baseline;
-   /*mis les couleur pour aider à voir les marges*/
-}
-
-.tridome aside
-{
-  width: 60%;  /* au lieu de 5 car c'est pour ajuster avec l'article du dessus */
-}
-
-#experience .esplan
-{
-  display: flex;
-  align-items: baseline;
-   /*mis les couleur pour aider à voir les marges*/
-}
-
-.esplan aside
-{
-  width: 60%;/* au lieu de 5 car c'est pour ajuster avec l'article du dessus */
+  width: 60%;
 }
 
 #experience p 
@@ -337,15 +274,13 @@ h3
   padding: 0;
 }
 
-.loi #icone
+#loisirs > div
 {
-  display: inline-block;
-  justify-content: center;
-  width: 22%;
-
+  display: flex;
+  justify-content: space-around;
 }
 
-#icone i
+#loisirs i
 {
   color: #404040;
   border: solid  #404040;
@@ -419,7 +354,7 @@ main i
   {
     font-size: 3.5em;
   }
-  header h2 
+  header p 
   {
     font-size: 2em;
   }
@@ -519,7 +454,7 @@ main i
  }
 
  
-header h2 span
+header p span
 {
   text-decoration: underline rgb(247, 126, 14);
 }
@@ -567,7 +502,7 @@ header h2 span
     color: rgb(247, 126, 14);
   }
 
-  header h2 
+  header p 
   {
     font-size: 1.5em;
   }
@@ -611,7 +546,7 @@ header h2 span
   {
     font-size: 2.5em;
   }
-  header h2 
+  header p 
   {
     font-size: 1.5em;
   }
