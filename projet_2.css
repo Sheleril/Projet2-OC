@@ -313,11 +313,8 @@ main i
   {
     height: 60%;
   } 
-
-
 }
 @media screen and (min-width: 480px) and (max-width: 959px)
-
 {
 
   body 
@@ -551,4 +548,11 @@ header p span
     font-size: 1.5em;
   }
 
+}
+@media screen and (min-width: 1024px) and (max-width: 1024px)
+{
+  .gauche 
+  {
+    height: 100%;
+  }
 }
