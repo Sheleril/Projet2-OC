@@ -114,6 +114,11 @@ main
  margin-right: 5%;
 }
 
+.gauchedroite
+{
+  display: flex;
+}
+
 
 header h1
 {
@@ -184,8 +189,6 @@ h2
 {
  display: flex;
  align-items: baseline;
-
-/*mis les couleur pour aider à voir les marges*/
 }
 
 #experience div aside
@@ -317,21 +320,22 @@ main i
 
 @media screen and (min-width: 960px) and (max-width: 1280px)
 {
- 
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 959px)
 {
 
+header div
+{
+  margin-right: 5%;
+  font-size: smaller;
+}
+
  body 
 {
   display: flex;
   flex-wrap: wrap;
-}
-
-.gauche
-{
-  width: 100%;
 }
 
 .loi
@@ -342,7 +346,7 @@ main i
 
 figure 
 {
-  padding-top: 45%;
+  padding-top: 5%;
 }
  
  /*PARTIE DROITE */
@@ -361,14 +365,7 @@ figure
  {
    font-size: 2em;
  }
-
- figure 
- {
-   margin: 10%;
-   padding: 0%;
- }
  
-
  .loi
  {
    margin-bottom: 5%;
@@ -402,7 +399,7 @@ figure
 
  .prop
 {
-  height: 500px;
+  height: 80%;
 } 
 
 
@@ -497,6 +494,8 @@ header p span
 .gauche
 {
   width: 100%;
+  display: flex;
+  margin: 0;
 }
 
 .droite
@@ -511,6 +510,11 @@ header p span
   padding-bottom: 5%;
   margin-left: 15%;
   height: 5%;
+}
+
+#loisirs
+{
+  margin-top: 15%;
 }
 
 .prop
@@ -575,6 +579,12 @@ header p span
  {
  margin-right: 10%;
  }
+
+#reco
+{
+  margin-bottom: 5%;
+}
+
 }
 @media screen and (max-width: 319px)
 {
@@ -587,4 +597,45 @@ header p span
    font-size: 1.5em;
  }
 
+}
+
+/*FORMAT PAYSAGE IPAD IPAD MINI */
+
+@media (orientation: landscape) and (max-device-width : 1024px)
+{
+.prop
+{
+  height: 90%;
+}
+}
+
+/*FORMAT PAYSAGE IPHONE X */
+
+@media (orientation: landscape) and (max-device-width : 959px)
+{
+
+header
+{
+  width: 100%;
+}
+figure
+{
+display: flex;
+justify-content: center;
+padding-top: 5%;
+padding-bottom: 3%;
+margin: 0;
+width: 30%;
+min-width: 300px;
+background-color: #feca07;
+}
+.gauche
+{
+  width: 30%;
+}
+
+#reco
+{
+ padding-bottom: 5%;
+}
 }
