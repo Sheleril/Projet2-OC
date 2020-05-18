@@ -601,7 +601,7 @@ header p span
 
 /*FORMAT PAYSAGE IPAD IPAD MINI */
 
-@media (orientation: landscape) and (max-device-width : 1024px)
+@media (orientation: landscape) and (max-width : 1024px)
 {
 .prop
 {
@@ -611,7 +611,7 @@ header p span
 
 /*FORMAT PAYSAGE IPHONE X */
 
-@media (orientation: landscape) and (max-device-width : 959px)
+@media (orientation: landscape) and (max-width : 959px)
 {
 
 header
