@@ -366,10 +366,7 @@ figure
   justify-content: center;
 }
 
-.aboutme p
-{
-  height: 700px;
-}
+
  
  /*PARTIE DROITE */
 
@@ -418,7 +415,6 @@ main
  {
  margin-right: 20%;
  }
-
  .aboutme
 {
   height: 80%;
