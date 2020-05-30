@@ -374,7 +374,7 @@ margin-right: 10%;
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 650px)
+@media screen and (max-width: 650px)
 {
 body{
   display: flex;
@@ -491,46 +491,3 @@ section h3{
 }
 
 /*FORMAT PAYSAGE IPHONE X */
-
-@media (orientation: landscape) and (max-width : 1024px)
-{
-main{
-  padding-right: 50px;
-}
-}
-
-@media (orientation: landscape) and (max-width : 959px)
-{
-
-header
-{
-  width: 100%;
-}
-figure
-{
-display: flex;
-justify-content: center;
-padding-top: 5%;
-padding-bottom: 3%;
-margin: 0;
-width: 25%;
-min-width: 300px;
-background-color: #feca07;
-}
-
-header div
-{
-  margin: auto;
-}
-
-.left
-{
-  width: 30%;
-}
-
-#reference
-{
- padding-bottom: 5%;
-}
-
-}
