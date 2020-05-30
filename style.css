@@ -114,6 +114,7 @@ main{
  flex-direction: column;
  width: 70%;
  padding-left: 50px;
+ padding-right: 10px;
 }
 
 header h1{
@@ -270,111 +271,17 @@ main i{
 
 #training article{
  width: 80%;
+ padding-right: 30px;
 }
 
 #experience article{
  width: 80%;
+ padding-right: 30px;
 }
 
 /*Media Queries Responsives */
 
-@media screen and (min-width: 651px) and (max-width: 959px)
-{
-
-header div{
-  font-size: smaller;
-}
-
- body{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#hobbie > div{
-  margin-bottom: 5%;
-  padding-bottom: 5%;
-}
-
-figure{
-  padding-top: 5%;
-  justify-content: center;
-}
-
- /*PARTIE DROITE */
-
-main{
-  width: 100%;
-  padding-right: 50px;
- }
-
- /* HEADER */
-header{
-  text-align: center;
-  align-items: center;
-}
-
-header h1{
-   font-size: 3em;
-   padding-top: 0;
-}
-
-header h2{
-   font-size: 2.5em;
-}
- 
-#hobbie > div{
-   margin-bottom: 5%;
-   padding-bottom: 5%;
-}
-
-section h3{
-   font-size: 2em;
-}
-
-#training div h4{
-   font-size: 1.5em;
-}
-
-#experience div h4{
-   font-size: 1.5em;
-}
-
-#reference .one{
- margin-right: 20%;
-}
-
-/*ARTICLES EN COLUMN*/
-
-#training div{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#training div h4{
-  font-size: 1.7em;
-}
-
-#experience div{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#experience div h4{
-  font-size: 1.7em;
-}
-
-/*PARTIE RECOMMANDATIONS*/
-
-#reference h4{
-  font-size: 1.2em;
-}
-#reference .one{
-margin-right: 10%;
-}
-
-}
-
-@media screen and (max-width: 650px)
+@media screen and (max-width: 1023px)
 {
 body{
   display: flex;
@@ -389,6 +296,8 @@ body{
 figure{
     background-color: white;
     width: 100%;
+    padding-top: 5%;
+    justify-content: center;
 }
 
 img{
@@ -399,11 +308,14 @@ img{
 header{
  display: flex;
  flex-direction: column-reverse;
+ text-align: center;
+ align-items: center;
 }
 
 header div{
 text-align: center;
 margin-left: 0;
+font-size: smaller;
 }
 
 header h2 span{
@@ -435,7 +347,7 @@ main{
 
  /* HEADER */
 header h1{
-   font-size: 2.5em;
+   font-size: 3em;
    padding-top: 5%;
 }
 
@@ -444,7 +356,7 @@ header h1 span{
 }
 
 header h2{
-   font-size: 1.5em;
+   font-size: 2.5em;
 }
  
 section h3{
@@ -454,7 +366,13 @@ section h3{
 #training div{
    display: flex;
    flex-wrap: wrap;
+
 }
+
+#training div aside{
+  width: 100%;
+  text-align: center;
+ }
 
 #training div h4{
    font-size: 1.5em;
@@ -463,12 +381,18 @@ section h3{
    display: flex;
    flex-wrap: wrap;
 }
+
+#experience div aside{
+  width: 100%;
+  text-align: center;
+ }
+
 #experience div h4{
-   font-size: 1.5em;
+   font-size: 1.7em;
 }
 
 #reference h4{
-   font-size: 1em;
+   font-size: 1.2em;
 }
 #reference .one{
  margin-right: 10%;
@@ -478,15 +402,25 @@ section h3{
   margin-bottom: 5%;
 }
 
+#reference aside{
+  justify-content: space-around;
 }
-@media screen and (max-width: 319px)
-{
- header h1{
-   font-size: 2.5em;
+
+#training article{
+  width: 100%;
+  text-align: center;
+  padding-right: 0%;
  }
- header h2{
-   font-size: 1.5em;
- }
+
+#experience article{
+ width: 100%;
+ text-align: center;
+ padding-right: 0%;
+}
+
+#contact address{
+  text-align: center;
+}
 
 }
 
