@@ -153,7 +153,7 @@ h3{
 }
 
 #training div aside{
- width: 60%;
+ width: 45%;
 }
 
 #training p {
@@ -173,7 +173,7 @@ h3{
 }
 
 #experience div aside{
- width: 60%;
+ width: 45%;
 }
 
 #experience p{
@@ -366,7 +366,6 @@ section h3{
 #training div{
    display: flex;
    flex-wrap: wrap;
-
 }
 
 #training div aside{
@@ -377,6 +376,7 @@ section h3{
 #training div h4{
    font-size: 1.5em;
 }
+
 #experience div{
    display: flex;
    flex-wrap: wrap;
