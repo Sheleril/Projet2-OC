@@ -1,455 +1,374 @@
-@font-face
-{
+@font-face{
 font-family: 'VT323';
 src: url('police/VT323Regular.ttf');
 font-weight: normal;
 font-style: normal;
 }
 
-body
-{
- display: flex;
- flex-wrap: wrap;
+body{
  margin: 0;
  padding: 0;
  font-family: VT323;
 }
 
-header
-{
+.rightleft{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header{
  display: flex;
- width: 100%;
+ width: 100%
 }
 
-header div
-{
-    margin-left: 11%;
-   
+header div{
+  margin-left: 50px;
 }
 
-.left
-{
+.left{
  display: flex;
  flex-direction: column;
- width: 30%;
+ width: 25%;
  min-width: 300px;
  background-color: #feca07;
- 
+ justify-content: space-between;
 }
 
-figure
-{
+figure{
 display: flex;
 justify-content: center;
 padding-top: 5%;
 padding-bottom: 3%;
 margin: 0;
-width: 30%;
+width: 25%;
 min-width: 300px;
 background-color: #feca07;
 }
 
-img
-{
+img{
  border-radius: 50%;
  border:4px solid rgba(218, 175, 18, 0.9);
 }
 
-.left h3
-{
+.left h3{
  text-align: center;
  background-color: #404040;
  color: #feca07;
  font-size: 2.5em;
 }
 
-#contact address
-{
-
-margin-left: 15%;
-font-size: 1.4em;
-height: 55%;
-
+#contact{
+  display: flex;
+  flex-direction: column;
 }
 
-address li
-{
- margin-bottom: 2%;
+#contact address{
+margin-left: 15%;  
+margin-right: 15%;
+font-size: 1.4em;
+}
+
+address ul{
+  padding: 0;
+}
+
+address li{
+ margin-bottom: 5%;
  list-style: none;
 }
 
-.rightleft address a 
-{
+.rightleft address a{
   text-decoration: none;
   color: black;
 }
 
-
-
-.aboutme p
-{
+.aboutme{
  display: flex;
- text-align: justify;
- margin: auto;
- padding-left: 15%;
- padding-right: 15%;
- font-size: 1.4em;
- height: 1200px;
+ flex-direction: column;
+ flex: 2;
 }
 
-#hobbie
-{
+.aboutme p {
+  text-align: justify;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.4em;
+}
+
+#hobbie{
  display: flex;
  flex-direction: column;
  font-stretch: normal;
- padding-bottom: 5%;
- margin-bottom: 5%;
-
+ padding-bottom: 20px;
 }
 
-#hobbie > div
-{
+#hobbie > div{
  margin-left: 5%;
  margin-right: 5%;
 }
 
 /*PARTIE DROITE*/
 
-main
-{
+main{
  display: flex;
  flex-direction: column;
- width: 60%;
- margin-left: 5%;
- margin-right: 5%;
+ width: 70%;
+ padding-left: 50px;
 }
 
-.rightleft
-{
-  display: flex;
-}
-
-
-header h1
-{
+header h1{
  font-size: 4.5em;
  margin: 0;
  padding-top: 20%;
- padding-bottom: 0;
- padding-left: 0;
- margin-left: 0;
 }
 
-header h1 span
-{
-
+header h1 span{
  color: #FBC02D;
 }
 
-header h2
-{
-padding-left: 5px;
+header h2{
+padding-left: 1%;
 margin: 0;
 font-size: 2.5em;
-
 }
 
-header h2 span
-{
+header h2 span{
  text-decoration: underline #FBC02D;
 }
 
-h3
-{
+h3{
  font-size: 2.5em;
 }
 
 /* PARTIE FORMATION*/
-#training
-{
+#training{
  display: flex;
  flex-direction: column;
 }
 
-#training div
-{
+#training div{
  display: flex;
  align-items: baseline;
 }
 
-#training div aside
-{
+#training div aside{
  width: 60%;
 }
 
-#training p 
-{
+#training p {
  font-size: 1.3em;
 }
 
 /* PARTIE EXPERIENCE */
 
-#experience
-{
+#experience{
  display: flex;
  flex-direction: column;
 }
 
-#experience div
-{
+#experience div{
  display: flex;
  align-items: baseline;
 }
 
-#experience div aside
-{
+#experience div aside{
  width: 60%;
 }
 
-#experience p 
-{
+#experience p{
  font-size: 1.3em;
 }
 
 /* PARTIE RECOMMANDATION */
 
-#reference
-{
+#reference{
  display: flex;
  flex-direction: column;
-
+  padding-bottom: 10px;
 }
 
-#reference .one
-{
+#reference .one{
 margin-right: 30%;
 }
 
-
-#reference aside
-{
+#reference aside{
  display: flex;
  flex-direction: row;
  align-items: baseline;
 }
 
-#reference p
-{
+#reference p{
  font-size: 1em;
  margin: 0;
  padding: 0;
 }
 
-#reference span
-{
+#reference span{
  font-weight: bold;
  font-size: 1em;
 }
 
-#reference h4
-{
+#reference h4{
  font-size: 1.4em;
  margin-top: 0;
- 
 }
 
 /* ESTHETIQUE TITRES ET PUCES */
 
-h3 .fas
-{
+h3 .fas{
  color: #FBC02D;
 }
 
-#training h3
-{
- border-bottom: solid #FBC02D;
-
-}
-
-#experience h3
-{
+#training h3{
  border-bottom: solid #FBC02D;
 }
 
-#reference h3
-{
+#experience h3{
+ border-bottom: solid #FBC02D;
+}
+
+#reference h3{
   border-bottom: solid #FBC02D;
 }
 
-#training h3 .fas
-{
+#training h3 .fas{
  margin-right: 2%; /* Crée un espace entre l'icone et le titre*/
 }
 
-h4
-{
+h4{
  font-size: 2em;
  padding-bottom: 0;
  margin-bottom: 0;
 }
 
-main aside
-{
+main aside{
  font-size: 1.3em;
 }
 
-.h4
-{
+.h4{
  font-size: 1.5em;
  margin: 0;
  padding: 0;
 }
 
-#hobbie > div
-{
+#hobbie > div{
  display: flex;
  justify-content: space-around;
 }
 
-#hobbie i
-{
+#hobbie i{
  color: #404040;
  border: solid  #404040;
  border-radius: 50%;
  font-size: 2em;
  padding: 15%;
-
 }
 
-main i 
-{
+main i{
  color: #FBC02D;
 }
 
-#training article
-{
+#training article{
  width: 80%;
 }
 
-#experience article
-{
+#experience article{
  width: 80%;
 }
 
 /*Media Queries Responsives */
 
-@media screen and (min-width: 960px) and (max-width: 1280px)
-{
-  
-}
-
 @media screen and (min-width: 650px) and (max-width: 959px)
 {
 
-header div
-{
-  margin-left: 15%;
+header div{
   font-size: smaller;
-  
 }
 
- body 
-{
+ body{
   display: flex;
   flex-wrap: wrap;
 }
 
-#hobbie > div
-{
+#hobbie > div{
   margin-bottom: 5%;
   padding-bottom: 5%;
 }
 
-figure 
-{
+figure{
   padding-top: 5%;
   justify-content: center;
 }
 
-
- 
  /*PARTIE DROITE */
 
-main
- {
+main{
   width: 100%;
+  padding-right: 50px;
  }
 
  /* HEADER */
- header h1 
- {
-   font-size: 3.5em;
- }
- header h2 
- {
-   font-size: 2em;
- }
+header{
+  text-align: center;
+  align-items: center;
+}
+
+header h1{
+   font-size: 3em;
+   padding-top: 0;
+}
+
+header h2{
+   font-size: 2.5em;
+}
  
- #hobbie > div
- {
+#hobbie > div{
    margin-bottom: 5%;
    padding-bottom: 5%;
-   
- }
+}
 
- section h3 
- {
+section h3{
    font-size: 2em;
- }
+}
 
- #training div h4
- {
+#training div h4{
    font-size: 1.5em;
- }
+}
 
- #experience div h4
- {
+#experience div h4{
    font-size: 1.5em;
- }
+}
 
- #reference h3 
- {
-   font-size: 1.5em;
- }
- #reference .one
- {
+#reference .one{
  margin-right: 20%;
- }
- .aboutme
-{
-  height: 80%;
-} 
-
+}
 
 /*ARTICLES EN COLUMN*/
 
-#training div
-{
+#training div{
   display: flex;
   flex-wrap: wrap;
 }
-#training div h4
-{
+
+#training div h4{
   font-size: 1.7em;
 }
-#experience div
-{
+
+#experience div{
   display: flex;
   flex-wrap: wrap;
 }
-#experience div h4
-{
+
+#experience div h4{
   font-size: 1.7em;
 }
 
 /*PARTIE RECOMMANDATIONS*/
 
-#reference h4 
-{
+#reference h4{
   font-size: 1.2em;
 }
-#reference .one
-{
+#reference .one{
 margin-right: 10%;
 }
 
@@ -457,168 +376,128 @@ margin-right: 10%;
 
 @media screen and (min-width: 320px) and (max-width: 650px)
 {
-body 
-{
+body{
   display: flex;
   flex-wrap: wrap;
-
 }
 
-.rightleft
-{
+.rightleft{
     display: flex;
     flex-wrap: wrap-reverse;
-    
 }
  
-figure 
-{
+figure{
     background-color: white;
     width: 100%;
-    margin-top: 5%;
 }
 
-
-img 
-{
+img{
     display: flex;
     justify-content: center;
 }
 
-header
-{
+header{
  display: flex;
  flex-direction: column-reverse;
-
 }
 
-header div
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 25%;
-    
-    
+header div{
+text-align: center;
+margin-left: 0;
 }
 
-
-header h2 span
-{
+header h2 span{
  text-decoration: underline rgb(247, 126, 14);
 }
 
-.left
-{
+.left{
   width: 100%;
   display: flex;
   margin: 0;
 }
 
-main
-{
+main{
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-
-#hobbie > div
-{
-  margin-bottom: 5%;
-  padding-bottom: 5%;
-}
-
-#hobbie
-{
+#hobbie{
   margin-top: 15%;
+  margin-bottom: 5%;
 }
 
- 
  /*PARTIE DROITE */
 
- main
- {
+main{
   width: 100%;
- }
+}
 
  /* HEADER */
- header h1 
- {
+header h1{
    font-size: 2.5em;
- }
+   padding-top: 5%;
+}
 
- header h1 span 
- {
+header h1 span{
    color: rgb(247, 126, 14);
- }
+}
 
- header h2 
- {
+header h2{
    font-size: 1.5em;
- }
+}
  
- 
- section h3 
- {
+section h3{
    font-size: 2em;
- }
- #training div
- {
-   display: flex;
-   flex-wrap: wrap;
- }
- #training div h4
- {
-   font-size: 1.5em;
- }
- #experience div
- {
-   display: flex;
-   flex-wrap: wrap;
- }
- #experience div h4
- {
-   font-size: 1.5em;
- }
+}
 
- #reference h4 
- {
+#training div{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#training div h4{
+   font-size: 1.5em;
+}
+#experience div{
+   display: flex;
+   flex-wrap: wrap;
+}
+#experience div h4{
+   font-size: 1.5em;
+}
+
+#reference h4{
    font-size: 1em;
- }
- #reference .one
- {
+}
+#reference .one{
  margin-right: 10%;
- }
+}
 
-#reference
-{
+#reference{
   margin-bottom: 5%;
 }
 
 }
 @media screen and (max-width: 319px)
 {
- header h1 
- {
+ header h1{
    font-size: 2.5em;
  }
- header h2 
- {
+ header h2{
    font-size: 1.5em;
  }
 
 }
 
-/*FORMAT PAYSAGE IPAD IPAD MINI */
+/*FORMAT PAYSAGE IPHONE X */
 
 @media (orientation: landscape) and (max-width : 1024px)
 {
-.aboutme
-{
-  height: 90%;
+main{
+  padding-right: 50px;
 }
 }
-
-/*FORMAT PAYSAGE IPHONE X */
 
 @media (orientation: landscape) and (max-width : 959px)
 {
@@ -641,7 +520,7 @@ background-color: #feca07;
 
 header div
 {
-  margin-left: 10%;
+  margin: auto;
 }
 
 .left
